@@ -25,7 +25,7 @@ document.querySelector("h1").onmouseover = event => {
     }
     
     iteration += 1 / 3;
-  }, );
+  }, 30);
 }
 document.querySelector("ram").onmouseover = event => {  
   let iteration = 0;
@@ -49,6 +49,6 @@ document.querySelector("ram").onmouseover = event => {
     }
     
     iteration += 1 / 3;
-  }, );
+  }, 30);
 }
   
