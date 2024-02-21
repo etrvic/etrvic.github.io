@@ -3,9 +3,9 @@ const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let interval = null;
 
 
-const ramElements = document.querySelectorAll("#effect");
+const effectElements = document.querySelectorAll("#effect");
 
-ramElements.forEach(element => {
+effectElements.forEach(element => {
   element.addEventListener("mouseover", event => {
     let iteration = 0;
     clearInterval(interval);
