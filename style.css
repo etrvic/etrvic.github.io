@@ -6,27 +6,22 @@ body {
   padding: 0px;
   margin-bottom: 120px;
   max-width: 900px;
+  font-size: 1.2em;
+  line-height: 1.6;
 }
 
 .container {
-  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
   margin-bottom: 70px;
   font-family: 'Space Mono', monospace;
 }
 
-p {
-  font-size: 1.2em;
-  line-height: 1.6;
-  font-family: 'Space Mono', monospace;
-  
-}
 
 .button {
   display: inline-block;
@@ -81,10 +76,11 @@ header nav svg:hover {
     fill: #d4b306;
     transition: all 0.1s ease;
 }
-header { margin: 70px 50px 30px; text-transform: uppercase; }
-.anchor-icon { display: inline-block; width: 20px; height: 12px;
-    margin-left:-20px;
-    margin-right:20px;
+header { margin: 70px 10px 30px; text-transform: uppercase; }
+.anchor-icon {
+    display: inline-block; width: 20px; height: 12px;
+    margin-left:-30px;
+    margin-right:10px;
 }
 
 img, video { width: 100%; margin: 20px 0px; padding: 0px; }
@@ -107,9 +103,16 @@ img, video { width: 100%; margin: 20px 0px; padding: 0px; }
     padding-left: 10px;
     border-left: 1px solid #FFF;
   }
-  .anchor-icon { display: inline-block; width: 20px; height: 12px;
-      margin-left:-10px;
-      margin-right:10px;
-  }
+  header { margin: 70px 50px 10px; text-transform: uppercase; }
+}
+h2, h3, h4, h5, h6 { font-size: 1.3em; line-height: 1.25em; text-transform: uppercase; font-weight: bold; padding: 0px; margin: 0px; }
 
+header .site-title a { text-decoration: none;
+font-size: 16px}
+header .devlog-title { font-weight: bold;
+font-size: 16px}
+li {
+display: list-item;
+text-align: match-parent;
+margin-left: -20px;
 }
