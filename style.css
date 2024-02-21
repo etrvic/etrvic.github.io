@@ -1,0 +1,51 @@
+body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      text-align: center;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px #000;
+      font-family: 'Space Mono', monospace;
+    }
+
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      font-family: 'Space Mono', monospace;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #FFD700;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      text-transform: uppercase;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #FFFF;
+      color: black;
+  }
+  ram{
+  font-family: 'Space Mono', monospace;
+  }
+
+blockquote { margin-left: -20px; padding-left: 20px; border-left: 1px solid #FFF; }
+
