@@ -39,7 +39,6 @@ p {
   font-weight: bold;
   transition: all 0.3s ease;
   color: #000;
-  
 }
 
 .button:hover {
@@ -89,3 +88,8 @@ header { margin: 70px 50px 30px; text-transform: uppercase; }
 }
 
 img, video { width: 100%; margin: 20px 0px; padding: 0px; }
+
+.thanks {
+    text-transform: uppercase;
+    text-align: center;
+}
