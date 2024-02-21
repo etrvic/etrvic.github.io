@@ -93,3 +93,14 @@ img, video { width: 100%; margin: 20px 0px; padding: 0px; }
     text-transform: uppercase;
     text-align: center;
 }
+
+@media screen and (max-width: 1200px) {
+  body {
+    max-width: 600px; /* Max-width for screens smaller than 1200px */
+  }
+  p {
+    font-size: 1.0em;
+    line-height: 1.2;
+    
+  }
+}
