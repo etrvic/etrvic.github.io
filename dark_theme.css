@@ -76,7 +76,7 @@ header nav svg:hover {
     fill: #d4b306;
     transition: all 0.1s ease;
 }
-header { margin: 70px 10px 30px; text-transform: uppercase; }
+header { margin: 70px 15px 30px; text-transform: uppercase; }
 .anchor-icon {
     display: inline-block; width: 20px; height: 12px;
     margin-left:-30px;
