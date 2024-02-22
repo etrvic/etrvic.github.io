@@ -26,3 +26,22 @@ effectElements.forEach(element => {
     }, 30);
   });
 });
+
+function changeTheme() {
+    var currentTheme = document.getElementById('theme').getAttribute('href');
+    var newTheme = (currentTheme === 'dark_theme.css') ? 'light_theme.css' : 'dark_theme.css';
+    document.getElementById('theme').setAttribute('href', newTheme);
+    
+    // Store the theme preference in localStorage
+    localStorage.setItem('theme', newTheme);
+    
+}
+
+
+// Check if there's a stored theme preference
+var storedTheme = localStorage.getItem('theme');
+if (storedTheme) {
+    document.getElementById('theme').setAttribute('href', storedTheme);
+    var svg = document.getElementById('theme-toggle-svg');
+
+}
