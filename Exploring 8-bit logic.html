@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demystifying the 8-Bit World</title>
+  <link rel="stylesheet" href="light_theme.css" id="theme">
+<link rel="icon" href="" type="image/x-icon">
+    
+
+</head>
+<body>
+    <header>
+        <div class="site-title">
+            <h3><a href="index.html">Etrvic</a></h3>
+            <h2 class="devlog-title"><a href="index.html">DEVLOG</a></h2>
+          </div>
+        <nav>
+            
+            <a href="archive.html">Archive</a>
+            <a href="https://github.com/etrvic/" class="svglink">
+                <svg arole="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <g id="sun-icon" style="display: block;">
+                        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                </g>
+                    <g id="moon-icon" style="display: none;">
+                                <path d="M12 1c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 16.52 2 11 6.48 1 12 1m0-1C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0z"/>
+                                <circle cx="17" cy="7" r="4"/>
+                            </g>
+                </svg></a>
+            <a href="https://news.ycombinator.com/user?id=etrvic" class="svglink">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                aria-label="Hacker News" role="img"
+                viewBox="0 0 512 512"><path
+                d="m0 0H512V512H0"/><path class = "ycombinator" d="m124 91h51l81 162 81-164h51L276 293v136h-40V293"/>
+                </svg>
+                </a>
+            <div onclick=changeTheme() style="text-align: right;margin-top: -30px;" onclick=changeTheme() style="text-align: right;">
+            <?xml version="1.0" encoding="iso-8859-1"?>
+               <svg style="width: 25px" fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                         viewBox="0 0 207.628 207.628" xml:space="preserve"style="display: inline-block;">
+                   <circle cx="103.814" cy="103.814" r="45.868"/>
+                   <path d="M103.814,157.183c-29.427,0-53.368-23.941-53.368-53.368s23.941-53.368,53.368-53.368
+                           s53.368,23.941,53.368,53.368S133.241,157.183,103.814,157.183z M103.814,65.446c-21.156,0-38.368,17.212-38.368,38.368
+                           s17.212,38.368,38.368,38.368s38.368-17.212,38.368-38.368S124.97,65.446,103.814,65.446z"/>
+                   <path d="M103.814,39.385c-4.142,0-7.5-3.358-7.5-7.5V7.5c0-4.142,3.358-7.5,7.5-7.5s7.5,3.358,7.5,7.5v24.385
+                           C111.314,36.027,107.956,39.385,103.814,39.385z"/>
+                   <path d="M103.814,207.628c-4.142,0-7.5-3.358-7.5-7.5v-24.385c0-4.142,3.358-7.5,7.5-7.5s7.5,3.358,7.5,7.5v24.385
+                           C111.314,204.271,107.956,207.628,103.814,207.628z"/>
+                   <path d="M200.128,111.314h-24.385c-4.142,0-7.5-3.358-7.5-7.5s3.358-7.5,7.5-7.5h24.385c4.142,0,7.5,3.358,7.5,7.5
+                           S204.271,111.314,200.128,111.314z"/>
+                   <path d="M31.885,111.314H7.5c-4.142,0-7.5-3.358-7.5-7.5s3.358-7.5,7.5-7.5h24.385c4.142,0,7.5,3.358,7.5,7.5
+                           S36.027,111.314,31.885,111.314z"/>
+                   <path d="M154.676,60.452c-1.919,0-3.839-0.732-5.303-2.197c-2.929-2.929-2.929-7.678,0-10.606l17.243-17.242
+                           c2.929-2.929,7.678-2.93,10.606,0c2.929,2.929,2.929,7.678,0,10.606l-17.243,17.242C158.515,59.72,156.595,60.452,154.676,60.452z"
+                           />
+                   <path d="M35.709,179.419c-1.919,0-3.839-0.732-5.303-2.197c-2.929-2.929-2.929-7.678,0-10.606l17.243-17.243
+                           c2.929-2.929,7.678-2.929,10.606,0c2.929,2.929,2.929,7.678,0,10.606l-17.243,17.243C39.548,178.687,37.629,179.419,35.709,179.419z
+                           "/>
+                   <path d="M171.918,179.419c-1.919,0-3.839-0.732-5.303-2.197l-17.243-17.243c-2.929-2.929-2.929-7.678,0-10.606
+                           c2.929-2.929,7.678-2.929,10.606,0l17.243,17.243c2.929,2.929,2.929,7.678,0,10.606
+                           C175.757,178.687,173.838,179.419,171.918,179.419z"/>
+                   <path d="M52.952,60.452c-1.919,0-3.839-0.732-5.303-2.197L30.406,41.013c-2.929-2.929-2.929-7.677,0-10.606
+                           c2.929-2.929,7.678-2.93,10.606,0l17.243,17.242c2.929,2.929,2.929,7.677,0,10.606C56.791,59.72,54.872,60.452,52.952,60.452z"/>
+               </svg>
+               </div>
+        </nav>
+    </header>
+  <div class="container">
+    <h1>Exploring 8-bit logic</h1>
+
+     <p>The pixelated graphics, catchy chiptune soundtracks, and limited controls might seem archaic to modern gamers. But for those who grew up in the 8-bit era, the NES, Commodore 64, and Atari hold a special place. Beyond the nostalgia, these early systems offer a fascinating glimpse into the world of digital logic, the building blocks of computing. So, buckle up, grab your soldering iron (figuratively, of course), and let's delve into the captivating realm of 8-bit logic!</p>
+
+     <h2 id="text"><div class="anchor-icon">#</div>Binary Boogie: The Language of 0s and 1s</h2>
+
+     <p>Imagine a world where everything is either on or off, black or white. That's the essence of binary, the language that computers understand. 8-bit systems, as the name suggests, operate on units of 8 bits, each representing either a 0 or a 1. These seemingly simple digits are the foundation for everything, from storing numbers and text to controlling game characters and generating animations.</p>
+
+     <p>But how do these 0s and 1s translate into meaningful actions? Enter the world of logic gates. These tiny electronic circuits perform basic operations like AND, OR, and NOT, combining binary inputs to produce an output. Think of them as the building blocks of digital thought, manipulating the flow of information like microscopic switches.</p>
+
+     <blockquote>"A single transistor can be used to create a logic gate, and a combination of logic gates can be used to create more complex circuits, all the way up to the sophisticated processors of today's computers." - Steve Wozniak, co-founder of Apple</blockquote>
+
+     <h2 id="text"><div class="anchor-icon">#</div>Assembly: Talking to the Machine (Without the Accent)</h2>
+
+     <p> Programming in 8-bit systems wasn't about fancy languages like Python or Java. It was about speaking directly to the hardware through assembly language. This low-level language translates human-readable instructions into machine code, essentially telling the processor what to do with each byte of memory.</p>
+
+     <p> While assembly might seem intimidating at first glance, it offers a unique understanding of how computers work at their core. You directly manipulate registers, memory addresses, and flags, feeling the raw power of the machine beneath your fingertips.</p>
+
+     <p> Example: Here's a simple assembly instruction to move the value 10 (represented in binary as 00001010) into a register:</p>
+
+
+    <code>MOV A, #10</code>
+
+
+    <p>This seemingly simple command involves multiple logic gate operations behind the scenes, highlighting the intricate dance between software and hardware.</p>
+
+     <h2 id="text"><div class="anchor-icon">#</div>Retro Games: Where Logic Meets Creativity</h2>
+
+     <p>The limitations of 8-bit systems didn't hinder creativity; they fueled it. Game developers had to be resourceful, using clever programming techniques and pushing the hardware to its limits. Collisions were often calculated with bit shifts and comparisons, movement was controlled by precise timing loops, and graphics were meticulously crafted using a limited palette of colors.</p>
+
+     <p>  Case Study: The iconic jump mechanic in Super Mario Bros. utilized a combination of logic gates and assembly instructions to control Mario's height and trajectory. The game's physics engine, while simple, required careful manipulation of bits and bytes to create the illusion of smooth movement.</p>
+
+     <p> These technical limitations fostered innovation, leading to iconic games that remain beloved today for their charm and ingenuity.</p>
+
+     <h2 id="text"><div class="anchor-icon">#</div>Beyond the Nostalgia: Why 8-Bit Logic Matters</h2>
+
+     <p> Understanding 8-bit logic isn't just about retro gaming nostalgia. It's about appreciating the fundamental principles of computing and the creativity that thrived within constraints. It's a gateway to understanding more complex systems, from modern processors to embedded devices in everyday objects.</p>
+
+     <p> So, the next time you boot up an emulator or admire the pixel art of a classic game, remember the hidden world of logic gates and assembly language that brought it to life. It's a testament to the power of human ingenuity and the enduring beauty of technology, even in its most basic form.</p>
+
+     <p> Bonus: Feeling inspired? Try your hand at writing simple assembly programs or exploring logic gate simulations online. You might be surprised at how much fun you can have with the building blocks of the digital world!</p>
+
+     <p>This blog post is just a starting point. Feel free to explore further, delve deeper into specific topics, and share your own experiences with 8-bit logic in the comments below! Let's keep the retro spirit alive!</p>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
